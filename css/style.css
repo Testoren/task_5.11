@@ -1,0 +1,117 @@
+/*голова*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #61d2d6;
+    background: url(http://m.gettywallpapers.com/wp-content/uploads/2021/04/HD-Star-Wars-PC-Wallpaper.jpg) center no-repeat fixed;
+    background-size: 100%;
+}
+header {
+    height: 400px;
+    background-color: #d0d1d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(http://img.lum.dolimg.com/v1/images/Coruscant_03db43b4.jpeg?region=0%2C96%2C1536%2C768) bottom no-repeat fixed;
+    background-size: cover;
+    margin: 30px;
+    border-radius: 15px;
+}
+header:hover {
+    box-shadow: 0px 0px 20px rgb(240, 255, 108);
+}
+h1 {
+    text-shadow: 0px 0px 10px #389fff;
+    color: rgb(235, 236, 255);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+/*Тело*/
+.news {
+    background-color: #000000;
+    border-radius: 15px;
+    margin: 50px 500px 32px;
+    color: rgb(255, 255, 255);
+    
+    width: 50%;
+}
+.news:hover {
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article>a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1rem;
+    text-shadow: 0 0 20px #1900ff;
+}
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.new:before {
+    content: 'New';
+    color: rgb(255, 238, 0);
+    font-style: bold;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back:nth-child(2n) {
+    background-color: rgb(129, 129, 129);
+    border-radius: 15px;
+    border-bottom: none;
+}
+.back:last-child{
+    border-bottom: none;
+}
+div>a {
+    text-decoration: none;
+    color: rgb(146, 233, 255);
+}
+/*подвал*/
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links>a {
+    color: rgb(153, 170, 184);
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 0px 15px #8173ff;
+}
+footer .links>a:hover {
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 0px 15px #1900ff;
+}
+.copyright {
+    color: rgb(145, 145, 145);
+    font-family: 'Times New Roman', Times, serif;
+}
+
